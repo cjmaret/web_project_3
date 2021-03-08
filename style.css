@@ -261,20 +261,21 @@ html {
 .cover {
     width: calc(100% - 96px);
     max-width: 1184px;
-    margin: auto;
+    margin: 0 auto;
     background-image: url("Images/cover-route-66.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 0;
+    padding-top: 24%;
+    padding-bottom: 24%;
     transition: background-color 0.4s ease;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     overflow: hidden;
 }
 
-/* .cover:hover {
+.cover:hover {
     background-color: rgba(42, 44, 47, 0.7);
     cursor: pointer;
 }
@@ -284,11 +285,7 @@ html {
     top: 0; right: 0; bottom: 0; left: 0;
     background-color: inherit;
     content: ' ';
-  } */
-
-.cover__text {
-    border: 1px solid red;
-}
+  }
 
 .cover__title {
     font-family: "Inter Black";
@@ -298,7 +295,6 @@ html {
     color: #FFFDFD;
     margin: 0 auto;
     width: 656px;
-    border: 1px solid blue;
 }
 
 .cover__subtitle {
@@ -308,7 +304,6 @@ html {
     width: 320px;
     margin: 0 auto;
     margin-top: 32px;
-    border: 1px solid blue;
 }
 
 
@@ -376,6 +371,8 @@ html {
 
     .cover {
         width: 100%;
+        padding-top: 25%;
+        padding-bottom: 25%;
     }
 } 
 
@@ -433,6 +430,11 @@ html {
         line-height: 1.6
     }
 
+    .cover {
+        padding-top: 25%;
+        padding-bottom: 25%;
+    }
+
     .footer{
         width: calc(100% - 48px);
     }
@@ -441,7 +443,7 @@ html {
 } 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
     .places {
         width: 100%;
     }
@@ -465,6 +467,21 @@ html {
     .place__paragraph {
         margin: 0 auto;
         width: calc(100% - 32px);
+    }
+
+    .cover {
+        padding-top: 25%;
+        padding-bottom: 25%;
+    }
+
+    .cover__title {
+        font-size: 48px;
+        line-height: 1.1
+    }
+
+    .cover__subtitle {
+        font-size: 16px;
+        line-height: 1.2;
     }
 }
 
@@ -529,6 +546,8 @@ html {
 
     .cover {
         margin: 64px auto;
+        padding-top: 25%;
+        padding-bottom: 25%;
     }
 
     .cover__text {
