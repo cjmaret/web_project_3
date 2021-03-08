@@ -4,10 +4,15 @@
     margin-right: 1.7%;
     color: white;
     text-decoration: none;
+    transition: opacity 0.4s ease;
 }
 
 .footer__link:last-child {
     margin-right: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.6;
 }
 
 @media only screen and (max-width: 425px) {
