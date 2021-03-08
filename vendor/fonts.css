@@ -11,9 +11,9 @@
 @font-face {
     font-family: "Inter Bold";
     src: url("Inter-3.15/Inter-Desktop/Inter-Bold.otf") format("otf"), 
-        url("Inter-3.15/Inter-Web/Inter-Bold.woff") format("woff"), 
-        url("Inter-3.15/Inter-Web/Inter-Bold.woff2") format("woff2"),
-        url("Inter-3.15/Inter-Windows/Desktop/Inter-Bold.ttf") format("truetype");
+        url("/Inter-3.15/Inter-Web/Inter-Bold.woff") format("woff"), 
+        url("/Inter-3.15/Inter-Windows/Web/Inter-Bold.woff2") format("woff2"),
+        url("/Inter-3.15/Inter-Windows/Desktop/Inter-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
@@ -21,9 +21,9 @@
 @font-face {
     font-family: "Inter Black";
     src: url("Inter-3.15/Inter-Desktop/Inter-Black.otf") format("otf"), 
-        url("Inter-3.15/Inter-Web/Inter-Black.woff") format("woff"), 
-        url("Inter-3.15/Inter-Web/Inter-Black.woff2") format("woff2"),
-        url("Inter-3.15/Inter-Windows/Desktop/Inter-Black.ttf") format("truetype");
+        url("/Inter-3.15/Inter-Web/Inter-Black.woff") format("woff"), 
+        url("/Inter-3.15/Inter-Web/Inter-Black.woff2") format("woff2"),
+        url("/Inter-3.15/Inter-Windows/Desktop/Inter-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
