@@ -5,8 +5,7 @@
 @import url("./__text/cover__text.css");
 
 .cover {
-    width: 100%;
-    max-width: 1184px;
+    width: calc(100% - 96px);
     margin: 0 auto;
     position: relative;
     background-image: url("../../Images/cover-route-66.jpg");
