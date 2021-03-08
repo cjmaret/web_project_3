@@ -1,0 +1,11 @@
+.nav-list {
+    width: 50%;
+    list-style: none;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .nav-list {
+        padding: 0;
+    }
+}

@@ -1,0 +1,29 @@
+@import url("./__lang-link-inside/header__lang-link-inside.css");
+@import url("./__lang-link-inside/__lang-link-inside_active/header__lang-link-inside_active.css");
+@import url("./__lang-link/header__lang-link.css");
+
+.header {
+    width: calc(100% - 296px);
+    margin: 34px auto 50px auto;
+    max-width: 984px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .header{
+        width: calc(100% - 96px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        width: calc(100% - 48px);
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .header{
+        width: calc(100% - 32px);
+    }
+}

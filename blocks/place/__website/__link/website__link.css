@@ -1,0 +1,12 @@
+.website__link {
+    border-bottom: 1px solid white;
+    color: white;
+    align-self: end;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.website__link:hover {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}

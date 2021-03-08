@@ -1,0 +1,41 @@
+@import url("./__background/cover__background.css");
+@import url("./__overlay/cover__overlay.css");
+@import url("./__subtitle/cover__subtitle.css");
+@import url("./__title/cover__title.css");
+
+.cover {
+    width: calc(100% - 96px);
+    max-width: 1184px;
+    margin: 0 auto;
+    background-image: url("../../Images/cover-route-66.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 24%;
+    padding-bottom: 24%;
+    transition: background-color 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cover:hover {
+    background-color: rgba(42, 44, 47, 0.7);
+    cursor: pointer;
+}
+
+.cover:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+
+@media only screen and (max-width: 1024px) {
+
+    .cover {
+        width: 100%;
+    }
+} 
