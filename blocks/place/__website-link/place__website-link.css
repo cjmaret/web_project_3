@@ -1,4 +1,4 @@
-.website__link {
+.place__website-link {
     border-bottom: 1px solid white;
     color: white;
     align-self: end;
@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-.website__link:hover {
+.place__website-link:hover {
     border-bottom: 1px solid transparent;
     cursor: pointer;
 }
