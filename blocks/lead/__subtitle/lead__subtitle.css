@@ -1,5 +1,5 @@
 .lead__subtitle {
-    width: 50%;
+    width: 620px;
     margin: 0 auto;
     font-size: 30px;
     line-height: 1.2;
@@ -7,6 +7,15 @@
     margin-top: 32px;
     max-width: 620px;
 
+}
+
+@media only screen and (max-width: 630px) {
+
+    .lead__subtitle {
+        width: 90%;
+        font-size: 24px;
+        line-height: 1.2;
+    }
 }
 
 @media only screen and (max-width: 425px) {

@@ -1,5 +1,6 @@
 .lead__image-group {
-    display: block;
-    margin: 0 auto;
+    width: 100%;
     max-width: 984px;
+    border: 1px solid red;
+    margin-top: 50px;
 }

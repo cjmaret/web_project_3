@@ -1,6 +1,6 @@
 .footer__copyright {
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 16px;
     margin: 0;
     padding: 0;
     width: 50%;
@@ -10,7 +10,6 @@
 @media only screen and (max-width: 425px) {
 
     .footer__copyright {
-        font-size: 14px;
         line-height: 1;
         width: 100%;
         padding-top: 48px;

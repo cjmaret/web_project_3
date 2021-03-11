@@ -1,6 +1,6 @@
 .place__title {
     margin: 0;
-    font-family: "Inter Black";
+    font-family: "Inter Black", Arial, sans-serif;
     font-size: 72px;
 }
 
@@ -24,6 +24,5 @@
     
     .place__title {
         font-size: 32px;
-        line-height: 1.1;
     }
 }

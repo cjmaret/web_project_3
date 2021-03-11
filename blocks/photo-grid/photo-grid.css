@@ -31,13 +31,22 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 630px) {
+
 
     .photo-grid {
         width: calc(100% - 32px);
         grid-template-columns: 1fr;
         grid-template-rows: repeat(12, 1fr);
+        margin: 88px auto;
         grid-row-gap: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .photo-grid {
         margin-top: 64px;
         margin-bottom: 64px;
     }

@@ -3,7 +3,9 @@
     margin-bottom: 12px;
     font-size: 12px;
     line-height: 1.6;
+    letter-spacing: .2em;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {
