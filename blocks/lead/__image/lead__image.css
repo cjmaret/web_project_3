@@ -1,4 +1,11 @@
 .lead__image {
+    box-sizing: border-box;
+    position: relative;
+    background-image: url("../../../Images/lead-mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
+    padding-bottom: 62.5%;
     margin: 0 auto;
 }
