@@ -1,0 +1,8 @@
+.header__lang-link-inside_active {
+    border-bottom: 1px solid white;
+    transition: 0.4s;
+}
+
+.header__lang-link-inside_active:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}

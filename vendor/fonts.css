@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Inter Regular";
+    font-family: "Inter";
     src: url("../Fonts/Inter-Desktop/Inter-Regular.otf") format("otf"), 
         url("../Fonts/Inter-Web/Inter-Regular.woff") format("woff"), 
         url("../Fonts/Inter-Web/Inter-Regular.woff2") format("woff2"),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: "Inter Bold";
+    font-family: "Inter";
     src: url("../Fonts/Inter-Desktop/Inter-Bold.otf") format("otf"), 
         url("../Fonts/Inter-Web/Inter-Bold.woff") format("woff"), 
         url("../Fonts/Inter-Web/Inter-Bold.woff2") format("woff2"),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: "Inter Black";
+    font-family: "Inter";
     src: url("../Fonts/Inter-Desktop/Inter-Black.otf") format("otf"), 
         url("../Fonts/Inter-Web/Inter-Black.woff") format("woff"), 
         url("../Fonts/Inter-Web/Inter-Black.woff2") format("woff2"),

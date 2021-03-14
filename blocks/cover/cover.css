@@ -1,70 +1,43 @@
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__title/cover__title.css");
-@import url("./__text/cover__text.css");
 @import url("./__link/cover__link.css");
 
 .cover {
     width: calc(100% - 96px);
     margin: 0 auto;
-    position: relative;
-    background-image: url("../../Images/cover-route-66.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 22.1%;
-    padding-bottom: 22.1%;
-    transition: 0.4s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(42, 44, 47, 0.3);
+    border: 1px solid red;
 }
-
-.cover:hover {
-    background-color: rgba(42, 44, 47, 0.7);
-    cursor: pointer;
-}
-
-.cover:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: inherit;
-    content: ' ';
-  }
 
 
 @media only screen and (max-width: 1024px) {
 
     .cover {
         width: 100%;
-        padding-top: 22.8%;
-        padding-bottom: 22.8%;
+        padding-top: 23.85%;
+        padding-bottom: 23.85%;
     }
 } 
 
 @media only screen and (max-width: 768px) {
 
     .cover {
-        padding-top: 19.95%;
-        padding-bottom: 19.95%;
+        padding-top: 21.4%;
+        padding-bottom: 21.4%;
     }
 } 
 
 @media only screen and (max-width: 630px) {
 
     .cover {
-        padding-top: 19.5%;
-        padding-bottom: 19.5%;
+        padding-top: 21.95%;
+        padding-bottom: 21.95%;
     }
 } 
 
 @media only screen and (max-width: 425px) {
 
     .cover {
-        padding-top: 13%;
-        padding-bottom: 13%;
+        padding-top: 18.4%;
+        padding-bottom: 18.4%;
     }
 } 

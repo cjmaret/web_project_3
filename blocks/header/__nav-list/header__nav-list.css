@@ -1,13 +1,8 @@
 .header__nav-list {
-    width: 50%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-}
-
-@media only screen and (max-width: 425px) {
-
-    .header__nav-list {
-        padding: 0;
-    }
 }

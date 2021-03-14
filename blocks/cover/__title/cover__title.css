@@ -1,9 +1,10 @@
 .cover__title {
-    font-family: "Inter Black", Arial, sans-serif;
+    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
     color: #FFFDFD;
+    z-index: 10;
     margin: 0 auto;
 }
 
@@ -20,6 +21,6 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        width: 100%;
+        max-width: 100%;
     }
 }

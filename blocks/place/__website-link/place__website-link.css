@@ -9,6 +9,6 @@
 }
 
 .place__website-link:hover {
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     cursor: pointer;
 }

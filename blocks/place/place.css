@@ -7,7 +7,7 @@
 
 
 .place {
-    margin: 92px auto;
+    margin: 80px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 48px;
@@ -25,7 +25,7 @@
 @media only screen and (max-width: 768px) {
 
     .place {
-        margin: 88px auto;
+        margin: 72px auto;
         grid-column-gap: 28px;
     }
 }

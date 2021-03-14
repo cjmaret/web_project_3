@@ -1,6 +1,6 @@
 .places {
     width: calc(100% - 296px);
-    margin: 0 auto;
+    margin: 92px auto;
     margin-bottom: 92px;
 }
 
@@ -15,7 +15,7 @@
 
     .places{
         width: calc(100% - 48px);
-        margin-bottom: 88px;
+        margin: 88px auto;
     }
 }
 
@@ -23,6 +23,6 @@
 
     .places {
         width: 100%;
-        margin-bottom: 64px;
+        margin: 64px auto;
     }
 }
