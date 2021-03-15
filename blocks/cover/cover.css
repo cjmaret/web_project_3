@@ -3,41 +3,7 @@
 @import url("./__link/cover__link.css");
 
 .cover {
-    width: calc(100% - 96px);
     margin: 0 auto;
-    border: 1px solid red;
+    max-width: 1184px;
 }
 
-
-@media only screen and (max-width: 1024px) {
-
-    .cover {
-        width: 100%;
-        padding-top: 23.85%;
-        padding-bottom: 23.85%;
-    }
-} 
-
-@media only screen and (max-width: 768px) {
-
-    .cover {
-        padding-top: 21.4%;
-        padding-bottom: 21.4%;
-    }
-} 
-
-@media only screen and (max-width: 630px) {
-
-    .cover {
-        padding-top: 21.95%;
-        padding-bottom: 21.95%;
-    }
-} 
-
-@media only screen and (max-width: 425px) {
-
-    .cover {
-        padding-top: 18.4%;
-        padding-bottom: 18.4%;
-    }
-} 
