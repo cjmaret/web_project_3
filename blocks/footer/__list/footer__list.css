@@ -1,0 +1,12 @@
+
+
+@media only screen and (max-width: 425px) {
+
+    .footer__list {
+        padding-bottom: 32px;
+    }
+    
+    .footer__list:last-child {
+        padding-bottom: 0;
+    }
+}

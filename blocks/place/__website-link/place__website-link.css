@@ -1,14 +1,13 @@
 .place__website-link {
-    border-bottom: 1px solid white;
+    text-decoration: underline;
     color: white;
     align-self: end;
     transition: 0.4s;
-    text-decoration: none;
     font-size: 18px;
     line-height: 22px;
 }
 
 .place__website-link:hover {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    opacity: 0.8;
     cursor: pointer;
 }
