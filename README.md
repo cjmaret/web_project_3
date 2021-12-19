@@ -1,12 +1,12 @@
-# Project 3: From Portland to Portland
+# [Project 3: From Portland to Portland](https://cjmaret.github.io/web_project_3/)
 
-Project Name: "From Portland to Portland"
-Description:
-    Functionality: 
-        This site is a travel guide / bicycle-trip style blog showcasing different cities to visit in the United States, plus hawking some bicycle-related products to visitors. Includes Map/Weather/Calendar links as well.
-    Technologies:
-        Technologies used include Grid/flexbox positioning, linking to external resources, and advanced CSS, mainly media queries to make a responsive website starting at 320px resolution.
+## Overview:
+This site is a travel guide / bicycle-trip style blog showcasing different cities to visit in the United States, plus hawking some bicycle-related products to visitors. Includes Map/Weather/Calendar links as well.
+## Technologies:
+- Grid/flexbox positioning
+- Linking to external resources
+- Advanced CSS (media queries to make a responsive website starting at 320px resolution)
 
-        Link: https://cjmaret.github.io/web_project_3/
+### ➡️ [Github Link](https://github.com/cjmaret/web_project_3)
 
         
